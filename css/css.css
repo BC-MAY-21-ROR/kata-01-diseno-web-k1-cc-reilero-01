@@ -28,15 +28,28 @@ body {
 
 .blue-background {
     background-color: var(--Very_Pale_Cyan);
-}
+    grid-area: a;
+  }
+
+  
+ 
 
 .home {
     width: auto;
     max-width: 1200px;
-    margin: 3rem auto
+    margin: auto;
+    display:grid;
+    grid-template-areas: "a" "b" "c";
     
 }
 
+.footer {
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    background: var(--Very_Dark_Cyan);
+    color: white;
+}
 
 
 /* CSS */
@@ -112,7 +125,7 @@ body {
 
 /* CSS */
 .buttonPink {
-  background-color: #EA4C89;
+  background-color: var(--Pink);
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
@@ -140,5 +153,5 @@ body {
 
 .buttonPink:hover,
 .buttonPink:focus {
-  background-color: var(--Pink);
+  background-color: #EA4C89;
 }
