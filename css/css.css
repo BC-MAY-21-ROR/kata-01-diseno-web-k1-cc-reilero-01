@@ -20,7 +20,14 @@ body {
 
 
 
-
+.home {
+  width: auto;
+  max-width: 1200px;
+  margin: auto;
+  display:grid;
+  grid-template-areas: "a" "b" "c";
+  
+}
 .heading {
     font-family: 'Poppins', sans-serif;
 }
@@ -29,19 +36,14 @@ body {
 .blue-background {
     background-color: var(--Very_Pale_Cyan);
     grid-area: a;
+    display: grid;
+    grid-template-rows: none;
   }
+
+
 
   
  
-
-.home {
-    width: auto;
-    max-width: 1200px;
-    margin: auto;
-    display:grid;
-    grid-template-areas: "a" "b" "c";
-    
-}
 
 .footer {
     bottom:0;
@@ -49,6 +51,10 @@ body {
     height:60px;   /* Height of the footer */
     background: var(--Very_Dark_Cyan);
     color: white;
+}
+
+.imagen_principal {
+    width: 40%;
 }
 
 

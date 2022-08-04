@@ -1,0 +1,23 @@
+{
+  "name": "kata-01-diseno-web-k1-cc-reilero-01",
+  "version": "1.0.0",
+  "description": "![BrightCoders Logo](images/logo-bc.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BC-MAY-21-ROR/kata-01-diseno-web-k1-cc-reilero-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BC-MAY-21-ROR/kata-01-diseno-web-k1-cc-reilero-01/issues"
+  },
+  "homepage": "https://github.com/BC-MAY-21-ROR/kata-01-diseno-web-k1-cc-reilero-01#readme",
+  "dependencies": {
+    "sass": "^1.54.3"
+  }
+}
