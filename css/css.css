@@ -28,18 +28,46 @@ body {
   grid-template-areas: "a" "b" "c";
   
 }
-.heading {
-    font-family: 'Poppins', sans-serif;
-}
+
 
 
 .blue-background {
+    margin: auto;
     background: url("/images/bg-hero-desktop.svg");
     background-color: var(--Very_Pale_Cyan);
     grid-area: a;
     display: grid;
     grid-template-columns:repeat(2,1fr);
   }
+  .main_left{
+    margin: 20px;
+  }
+  .heading_1{
+    
+    display: grid;
+    grid-template-areas: "icon main main";
+    grid-template-columns: auto 1fr;
+  }
+
+  .heading {
+    margin-top: auto;
+    font-family: 'Poppins', sans-serif;
+    grid-area: main;
+  }
+
+  ion-icon{
+    
+    margin-top: none;
+    grid-area: icon;
+    font-size: 35px;
+    color: var(--Pink);
+    
+  }
+
+  .heading_2{
+    
+  }
+  
 
 
 
